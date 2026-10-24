@@ -5,9 +5,9 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    \'base:'/BROOTS-MEDIA-Website/',
     plugins: [react(), tailwindcss()],
     resolve: {
-      \'base:'/BROOTS-MEDIA-Website/',
       alias: {
         '@': path.resolve(__dirname, '.'),
       },
